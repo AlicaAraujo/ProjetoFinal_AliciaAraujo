@@ -116,7 +116,12 @@ void processar_botoes() {
         else if (joystick_y_value > 3072) direcao_aprendida = 2;
         else if (joystick_x_value > 3072) direcao_aprendida = 0;
         else if (joystick_x_value < 1024) direcao_aprendida = 3;
-        if (direcao_aprendida != -1) display_message("Direcao Aprendida");
+        if (direcao_aprendida != -1) {
+            display_message("Direcao Aprendida");
+            pwm_set_gpio_level(LED_R_PIN, 255);
+            pwm_set_gpio_level(LED_G_PIN, 10);
+            pwm_set_gpio_level(LED_B_PIN, 80);
+        }
     }
 
     // Botão B: Modo de Navegação
