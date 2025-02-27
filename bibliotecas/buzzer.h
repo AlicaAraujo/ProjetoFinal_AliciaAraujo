@@ -8,5 +8,7 @@
 
 void buzzer_init();
 void buzzer_play(uint32_t frequencia_h, uint32_t intervalo_us);
+void buzzer_play_async(int freq, int duration_ms);
+void buzzer_set_frequency(int freq);
 
 #endif

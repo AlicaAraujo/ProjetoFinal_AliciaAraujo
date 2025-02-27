@@ -22,17 +22,15 @@ int main() {
     buzzer_init();
     display_init();
 
-    // Inicia com todos os LEDs ligados (branco)
-    pwm_set_gpio_level(LED_R_PIN, 255);
-    pwm_set_gpio_level(LED_G_PIN, 255);
-    pwm_set_gpio_level(LED_B_PIN, 255);
+    // Inicia no Modo Inicial
+    desativar_todos_os_modos();
 
     // Loop principal
     while (true) {
-        // Processa os botões para atualizar os estados
-        processar_botoes();
         // Lê os valores do joystick
         joystick_read();
+        // Processa os botões para atualizar os estados
+        processar_botoes();
 
         // Verifica se o botão A foi pressionado
         if (button_a_pressed) {
