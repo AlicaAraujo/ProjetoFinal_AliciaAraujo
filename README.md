@@ -78,6 +78,10 @@ Desenvolver um sistema embarcado que permita:
 - Explicação breve das funcionalidades.
 - Execução do código na placa **BitDogLab**.
 
+Confira o vídeo com a execução desta tarefa na placa BitDogLab:
+
+[Assista ao Vídeo](https://youtu.be/60CSzEbUBRM?feature=shared).
+
 <h2 align="center">📅 Informações</h2>
 
 📌 **Autor(a)**: Alícia Oliveira Araújo  
