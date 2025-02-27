@@ -85,7 +85,7 @@ Confira o vídeo com a execução desta tarefa na placa BitDogLab:
 <h2 align="center">📅 Informações</h2>
 
 📌 **Autor(a)**: Alícia Oliveira Araújo  
-🛠️ **Última Modificação**: 18/02/2025  
+🛠️ **Última Modificação**: 26/02/2025  
 
 Projeto desenvolvido para estudos de sistemas embarcados com **Raspberry Pi Pico W**.
 
